@@ -1,4 +1,4 @@
-# Fake treble builds for kagura
+# Fake treble builds for suzu
 PRODUCT_FAKE_TREBLE_BUILD := true
 
 # Skip adding system to ota
