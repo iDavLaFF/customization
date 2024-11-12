@@ -21,3 +21,7 @@
 # changed using a post-build re-signing operation (or by making a
 # change inside the build project).
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/release-keys/testkey
+
+BUILD_KERNEL := false
+# Include buildvar whether to build a fake treble build or not
+include device/sony/customization/customization-noproduct.mk
